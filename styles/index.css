@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  background-color: midnightblue;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+#student-form {
+  position: relative;
+}
+#validation-msg {
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+  position: absolute;
+  left: 190px;
+  top: -10px;
+  display: none;
+}
+section {
+  width: 95%;
+  margin: auto;
+}
+#stats {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.stat {
+  width: 20%;
+  border-radius: 10px;
+  background-color: midnightblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+#add-btn {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+input {
+  padding: 6px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.p-italic {
+  margin-top: 10px;
+}

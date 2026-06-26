@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>mySchool | Students Management System</title>
+</head>
+
+<body>
+    <section id="header">
+        <h1>Student Result Management System</h1>
+        <p class="p-italic"><i> "Manage student academic records efficiently." </i></p>
+    </section>
+    <section id="student-form">
+        <span id="validation-msg">
+        </span>
+
+        <p><input id="sname" type=" text" placeholder="Student's name..." /></p>
+        <p><input id="ms" type="number" placeholder="Maths Score..." /></p>
+        <p><input id="es" type="number" placeholder="English Score..." /></p>
+        <p><input id="ss" type="number" placeholder="Science Score..." /></p>
+        <p>
+            <button id="add-btn">Add Student</button>
+        </p>
+    </section>
+
+    <!-- Dashboard Statistic -->
+    <section id="d-stat">
+        <div id="stats">
+            <div class="stat">Total Students</div>
+            <div class="stat">Highest Average</div>
+            <div class="stat">Lowest Average</div>
+            <div class="stat">Overall Class Average</div>
+        </div>
+    </section>
+
+    <section id="s-table">
+        <table>
+            <h2>
+                Students' Record
+            </h2>
+            <p class="p-italic"><i>
+                    "No student records available..."
+                </i>
+            </p>
+        </table>
+    </section>
+    <script src="./scripts/index.js">
+    </script>
+</body>
+
+</html>
